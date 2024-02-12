@@ -60,3 +60,55 @@ text5 = text5.replaceAll("Cats","Dogs");
 text5 = text5.replaceAll("cats","dogs");
 
 console.log(text5); //Method
+
+
+//Assignment 4.6 - Strings and Conditionals Below,
+
+let petName = "Pickles";
+
+console.log("My pets name is " + petName + "." ); //concatenated string variable.
+
+
+const speed = 55;
+if (speed > 75) {
+  console.log("Too Fast!")
+} else {
+  console.log("Good Speed"); //"If" Conditional statement
+}
+
+
+
+const car = "Subaru";
+ 
+switch (car) {
+  case "Honda":
+    console.log("I own a Honda");
+    break;
+  case "Audi":
+    console.log("I own a Audi");
+    break;
+  case "Toyota":
+    console.log("I own a Toyota");
+    break;
+  case "Jeep":
+    console.log("I own a Jeep");
+    break;
+  case "Kia":
+    console.log("I own a Kia");
+    break;
+  default:
+    console.log("I don't own a pet");
+    break;
+}// Switch Statement
+
+
+let text = "supercalifragilisticexpialidocious";
+let length = text.length;
+console.log(text.length); // String Method
+
+
+let x = 6.33;
+x.toExponential(2);
+x.toExponential(4);
+x.toExponential(6);
+console.log(x.toExponential(2) + ' - '+ x.toExponential(4) + ' - '+ x.toExponential(6)); //Number method
