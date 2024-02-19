@@ -69,7 +69,7 @@ let petName = "Pickles";
 console.log("My pets name is " + petName + "." ); //concatenated string variable.
 
 
-const speed = 55;
+const speed = 100;
 if (speed > 75) {
   console.log("Too Fast!")
 } else {
@@ -112,3 +112,41 @@ x.toExponential(2);
 x.toExponential(4);
 x.toExponential(6);
 console.log(x.toExponential(2) + ' - '+ x.toExponential(4) + ' - '+ x.toExponential(6)); //Number method
+
+
+//Assignment 5.4 Assignment: Loops and DOM,
+
+for (let i = 1; i <= 3; i++) {
+  console.log(`Testing 1...2...3`);
+}//For Loop
+
+let username = "";
+
+while(username === ""){
+username = window.prompt(`you didn't enter your name`);
+}
+ console.log(`Hello ${username}`);//While Loop
+
+
+
+//Change CC with JS
+const newH1 = document.createElement("h1")
+
+newH1.textContent = "I like pizza!"
+newH1.id = "myH1"
+newH1.style.color = "pink";
+newH1.style.textAlign = "center";
+document.body.prepend(newH1);
+//Change CC with JS
+
+
+
+
+
+document.body.style.backgroundColor = "orchid";
+console.log(document.body.style.backgroundColor);
+document.body.style.backgroundColor = "#89CFF0";// babyblue color
+//Change CSS based upon a variable value
+
+
+
