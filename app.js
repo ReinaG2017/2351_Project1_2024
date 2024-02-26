@@ -150,3 +150,24 @@ document.body.style.backgroundColor = "#89CFF0";// babyblue color
 
 
 
+
+//6.4 Assignment
+const dog = {
+  breed: "Basset Hound",
+  age: "2 years old",
+  price: "$2000",
+
+  dogDetails: function () {
+      return this.breed + " " + this.price
+          + " " + this.age + " ";
+  }
+};
+
+console.log(dog.dogDetails()); //Object and Object Method
+
+
+const bills = ["Cable", "Rent", "Car Note", "Loan"];
+console.log(bills);//Array
+
+bills.push("Phone Bill");
+//Array Method
